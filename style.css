@@ -33,6 +33,55 @@ body {
 }
 
 
-.tile:hover {
+
+
+.tile {
+    background-color: hsl(0,0%,100%);
+}
+
+.tile-colored {
     background-color: black;
+}
+
+/* Did this since getting color through javascript returns rgb value and I didnt feel like
+converting to HSL or whatever*/
+
+.tile0 {
+    background-color: hsl(0,0%,90%);
+}
+
+.tile1 {
+    background-color: hsl(0,0%,80%);
+}
+
+.tile2 {
+    background-color: hsl(0,0%,70%);
+}
+
+.tile3 {
+    background-color: hsl(0,0%,60%);
+}
+
+.tile4 {
+    background-color: hsl(0,0%,50%);
+}
+
+.tile5 {
+    background-color: hsl(0,0%,40%);
+}
+
+.tile6 {
+    background-color: hsl(0,0%,30%);
+}
+
+.tile7 {
+    background-color: hsl(0,0%,20%);
+}
+
+.tile8 {
+    background-color: hsl(0,0%,10%);
+}
+
+.tile9 {
+    background-color: hsl(0,0%,0%);
 }
