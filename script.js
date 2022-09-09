@@ -1,14 +1,3 @@
-function makeContainerSquare(x) {
-    const tileContainer = document.querySelector('.tile-container');
-    const gameConsole = document.querySelector('.game-console');
-    let width = tileContainer.clientWidth;
-    while (width % x != 0) {
-        width--;
-    }
-    gameConsole.style.width = `${width}px`;
-    tileContainer.style.height = `${width}px`;
-}
-
 function getTileSide(x) {
     let width = document.querySelector('.tile-container').clientWidth;
     let tileSide = width/x;
