@@ -11,12 +11,17 @@ body {
     font-size: 36px;
 }
 
+.console-border {
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
 .game-console {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 500px;
-    border: 10px solid slategray;
+    border: 15px solid slategray;
     border-radius: 10px;
 }
 
@@ -27,6 +32,7 @@ body {
     height: 500px;
     align-items: center;
     justify-content: center;
+    border: 2px solid black;
     
 }
 
@@ -35,7 +41,8 @@ body {
     height: 73px;
     width: 500px;
     background-color: lightgrey;
-    border-top: 10px solid slategray;
+    border: 2px solid black;
+    border-top: none;
     align-items: center;
     justify-content: center;
     gap: 25px;
